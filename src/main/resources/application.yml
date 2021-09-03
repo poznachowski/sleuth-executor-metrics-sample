@@ -1,0 +1,9 @@
+spring:
+  sleuth:
+    async:
+      enabled: true
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
